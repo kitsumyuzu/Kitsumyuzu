@@ -10,10 +10,8 @@ I am currently studying at one of the institutes in Batam City, namely <a href="
 - 💼 Warehouse Admin, PT. Indo Batam Ekatama.
 - 💔 Always disappointed in love relationships.
 - ✨ I like to collect / taking picture of an aesthetic stuff.
-- 🧠 Currently learning <b>React</b>, <b>NextJS</b>, <b>Responsive Design</b>, <b>UI / UX Design</b> with <b>Figma</b>.
+- 🧠 Currently learning <b>Python</b>,<b>React JS</b>, <b>Responsive Design</b>, <b>UI / UX Design</b> with <b>Figma</b>.
 
-<!-- Recent Project -->
-## 💼 My Recent Project
 <!-- Chart -->
 <div align="center">
     <picture align="left">
@@ -22,12 +20,8 @@ I am currently studying at one of the institutes in Batam City, namely <a href="
         <img src="https://github-readme-stats.vercel.app/api?username=kitsumyuzu&show_icons=true&theme=dark">
     </picture>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kitsumyuzu&layout=compact&theme=dark">
-    <!-- Dropdown Menu -->
-    <pre>Project List <pre>No recent project tracked</pre></pre>
-    <!-- End: Dropdown Menu -->
 </div>
 <!-- End: Chart -->
-<!-- End: Recent Project -->
 
 <!-- Social Media -->
 ## 💖 Follow me on Social Media
@@ -39,3 +33,4 @@ I am currently studying at one of the institutes in Batam City, namely <a href="
 [![Business E-mail](https://img.shields.io/badge/business%20email-gray?style=for-the-badge&logo=gmail&link=mailto:kitsumyuzu@gmail.com)](mailto:kitsumyuzu@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/linkedin-gray?style=for-the-badge&logo=linkedin&link=https://www.linkedin.com/in/fransisco-fu-569082313/)](https://www.linkedin.com/in/fransisco-fu-569082313/)
 <!-- End: Social Media -->
+
