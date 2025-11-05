@@ -18,7 +18,7 @@ My goal is to combine my software engineering background with my information sys
 - 💼 Warehouse Admin, PT. Indo Batam Ekatama.
 - 💔 Always disappointed in love relationships.
 - ✨ I like to collect / taking picture of an aesthetic stuff.
-- 🧠 Currently learning <b>Python</b>, <b>React</b>, <b>C++ and C#</b>.
+- 🧠 Currently learning <b>React</b>, <b>C++ and C#</b>.
 
 <!-- Github Repository Graph -->
 <h3>📊 Repository Stats</h3>
@@ -34,16 +34,18 @@ My goal is to combine my software engineering background with my information sys
 <!-- Social Media -->
 <h3>💖 Find me on Social Media</h3>
 
-[![Instagram](https://img.shields.io/badge/Instagram-gray?style=for-the-badge&logo=instagram&link=https://instagram.com/kitsumyuzu)](https://instagram.com/kitsumyuzu)
-[![YouTube](https://img.shields.io/badge/youtube-gray?style=for-the-badge&logo=youtube&link=https://www.youtube.com/@kitsumyuzu)](https://www.youtube.com/@kitsumyuzu)
-[![Twitter / x](https://img.shields.io/badge/twitter%20/%20x-gray?style=for-the-badge&logo=x&link=https://x.com/kitsumyuzu)](https://x.com/kitsumyuzu)
-[![Discord](https://img.shields.io/badge/discord-gray?style=for-the-badge&logo=discord&link=https://discord.gg/invite/CpHqMkJRMk)](https://discord.gg/invite/CpHqMkJRMk)
-[![LinkedIn](https://img.shields.io/badge/linkedin-gray?style=for-the-badge&logo=linkedin&link=https://www.linkedin.com/in/fransisco-fu-569082313/)](https://www.linkedin.com/in/fransisco-fu-569082313/)
+[![Instagram](https://img.shields.io/badge/Instagram-gray?style=for-the-badge&logo=instagram&logoColor=E56969&link=https://instagram.com/kitsumyuzu)](https://instagram.com/kitsumyuzu)
+[![YouTube](https://img.shields.io/badge/youtube-gray?style=for-the-badge&logo=youtube&logoColor=FF0000&link=https://www.youtube.com/@kitsumyuzu)](https://www.youtube.com/@kitsumyuzu)
+[![X](https://img.shields.io/badge/twitter%20/%20x-gray?style=for-the-badge&logo=x&logoColor=000000&link=https://x.com/kitsumyuzu)](https://x.com/kitsumyuzu)
+[![Discord](https://img.shields.io/badge/discord-gray?style=for-the-badge&logo=discord&logoColor=7289DA&link=https://discord.gg/invite/CpHqMkJRMk)](https://discord.gg/invite/CpHqMkJRMk)
+[![LinkedIn](https://img.shields.io/badge/linkedin-gray?style=for-the-badge&color=0A66C2&link=https://www.linkedin.com/in/fransisco-fu-569082313/)](https://www.linkedin.com/in/fransisco-fu-569082313/)
 
 <!-- Contact -->
 <h3>☎️ Contact Me</h3>
 
-[![Business E-mail](https://img.shields.io/badge/business%20email-gray?style=for-the-badge&logo=gmail&link=mailto:kitsumyuzu@gmail.com)](mailto:kitsumyuzu@gmail.com)
+[![Business E-mail](https://img.shields.io/badge/business%20email-gray?style=for-the-badge&logo=gmail&link=mailto:kitsumyuzu@gmail.com)](mailto:noparainfy@gmail.com)
+[![Portfolio](https://img.shields.io/badge/portfolio-gray?style=for-the-badge&logo=cloudflare&logoColor=F38020&link=https://www.noparainfy.my.id/)]([https://www.noparainfy.my.id/](https://www.noparainfy.my.id/))
 
 <!-- Footer Banner -->
 ![F_Banner](https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Thank%20You&fontSize=60&fontAlignY=75&section=footer&fontAlign=50)
+
