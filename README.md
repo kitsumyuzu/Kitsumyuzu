@@ -44,8 +44,9 @@ My goal is to combine my software engineering background with my information sys
 <h3>☎️ Contact Me</h3>
 
 [![Business E-mail](https://img.shields.io/badge/business%20email-gray?style=for-the-badge&logo=gmail&link=mailto:kitsumyuzu@gmail.com)](mailto:noparainfy@gmail.com)
-[![Portfolio](https://img.shields.io/badge/portfolio-gray?style=for-the-badge&logo=cloudflare&logoColor=F38020&link=https://www.noparainfy.my.id/)]([https://www.noparainfy.my.id/](https://www.noparainfy.my.id/))
+[![Portfolio](https://img.shields.io/badge/portfolio-gray?style=for-the-badge&logo=cloudflare&logoColor=F38020&link=https://www.noparainfy.my.id/)](https://www.noparainfy.my.id/)
 
 <!-- Footer Banner -->
 ![F_Banner](https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Thank%20You&fontSize=60&fontAlignY=75&section=footer&fontAlign=50)
+
 
