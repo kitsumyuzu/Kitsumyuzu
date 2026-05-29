@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-tertiary: #e9ecef;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --text-tertiary: #888888;
+    --border-color: #e9ecef;
+    --accent: #222222;
+    --accent-hover: #444444;
+}
+
+[data-theme='dark'] {
+    --bg-primary: #020617;
+    --bg-secondary: #0f172a;
+    --bg-tertiary: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-tertiary: #64748b;
+    --border-color: #1e293b;
+    --accent: #f8fafc;
+    --accent-hover: #cbd5e1;
+}
+
+body {
+    font-family: 'Sour Gummy', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
