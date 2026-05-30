@@ -1,4 +1,3 @@
-/* --- Header Layout --- */
 .header {
     position: fixed;
     top: 0;
@@ -6,13 +5,11 @@
     width: 100%;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
-    
     background-color: var(--bg-primary);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     padding: 1rem 2rem;
 }
 
-/* --- Scrolled State (Transparent) --- */
 .scrolled {
     background-color: var(--bg-primary) !important;
     backdrop-filter: blur(10px);
@@ -34,6 +31,7 @@
     font-weight: 700;
     text-decoration: none;
     color: var(--text-primary);
+    z-index: 1001;
 }
 
 .nav__links {
@@ -55,7 +53,6 @@
     color: var(--text-secondary);
 }
 
-/* --- Dropdown --- */
 .nav__list_dropdown {
     position: relative;
     cursor: pointer;
@@ -70,7 +67,6 @@
     cursor: pointer;
 }
 
-/* Dropdown Menu Animation */
 .dropdownMenu {
     position: absolute;
     top: 100%;
@@ -78,7 +74,6 @@
     transform: translateX(-50%) translateY(10px);
     opacity: 0;
     visibility: hidden;
-    
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: 8px;
@@ -89,18 +84,15 @@
     gap: 0.5rem;
     min-width: 150px;
     margin-top: 0.5rem;
-    
     transition: all 0.2s ease-in-out;
 }
 
-/* When dropdown is open */
 .dropdownMenu_open {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(0);
 }
 
-/* Dropdown Links */
 .dropdownMenu a {
     text-decoration: none;
     color: var(--text-primary);
@@ -122,7 +114,6 @@
     padding: 0.5rem;
 }
 
-/* --- Theme Button --- */
 .themeBtn {
     background: var(--bg-tertiary);
     border: none;
@@ -139,4 +130,134 @@
 
 .themeBtn:hover {
     background: var(--border-color);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: var(--text-primary);
+    z-index: 1001;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .scrolled {
+        padding: 0.8rem 1rem;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .actions {
+        gap: 0.25rem;
+    }
+
+    .actions .themeBtn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .mobileMenu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: var(--bg-primary);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+        padding-top: 5rem;
+        overflow-y: auto;
+    }
+
+    .mobileMenu_open {
+        transform: translateX(0);
+    }
+
+    .mobileNav__links {
+        list-style: none;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .mobileNav__list a {
+        text-decoration: none;
+        color: var(--text-primary);
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+
+    .mobileDropdownBtn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        border: none;
+        color: var(--text-primary);
+        font-weight: 500;
+        font-size: 1.25rem;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .chevronRotated {
+        transform: rotate(180deg);
+    }
+
+    .mobileDropdownMenu {
+        display: none;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.5rem 0 0 1rem;
+    }
+
+    .mobileDropdownMenu_open {
+        display: flex;
+    }
+
+    .mobileDropdownMenu a {
+        font-size: 1rem;
+    }
+
+    .mobileDropdownMenu button {
+        border: none;
+        background: none;
+        color: var(--text-tertiary);
+        cursor: not-allowed;
+        text-align: left;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .mobileActions {
+        padding: 2rem;
+    }
 }
