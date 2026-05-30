@@ -10,7 +10,15 @@ const LandingPage = () => {
             description: 'Platform berbasis web dan AI yang dirancang untuk meningkatkan akses terhadap informasi harga bahan pangan yang transparan. Membantu UMKM dan masyarakat mengantisipasi fluktuasi harga melalui prediksi berbasis machine learning.',
             tech: ['NodeJS', 'Vite', 'React', 'Express', 'Typescript', 'Python'],
             link: 'https://github.com/kitsumyuzu/panganpintar.id',
+            type: 'Github'
         },
+        {
+            title: 'Furo Club',
+            description: 'Furo Club is an immersive, high-fidelity social hangout experience built on the Roblox platform. The project was designed with a heavy emphasis on community interaction, aesthetic environment design, and optimized performance across PC, mobile, and console devices. The goal was to create a visually striking, low-latency environment where players could seamlessly socialize, customize their experience, and interact with dynamic map elements.',
+            tech: ['Lua'],
+            link: 'https://www.roblox.com/games/5283481598/NoPaRainFY-Hall',
+            type: 'Roblox'
+        }
     ]
 
     const experiences = [
@@ -67,7 +75,7 @@ const LandingPage = () => {
                             
                             <div className={styles.project__cta}>
                                 <Link to={project.link} target='_blank' rel="noopener noreferrer">
-                                    View GitHub <ExternalLink size={14} />
+                                    View {project.type} <ExternalLink size={14} />
                                 </Link>
                             </div>
                         </div>
